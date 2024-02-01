@@ -14,10 +14,13 @@ public class Animal {
         Animal myAnimal = new Animal();
         Fish myFish = new Fish();
         Zebra myZebra = new Zebra();
+        System.out.println("For Mammal object:");
         myAnimal.isMammal();
         myAnimal.mate();
+        System.out.println("For Fish object:");
         myFish.isMammal();
         myFish.mate();
+        System.out.println("For Zebra object:");
         myZebra.isMammal();
         myZebra.mate();
         myZebra.run();
